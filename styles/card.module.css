@@ -1,0 +1,66 @@
+.main_form{
+    margin-top: 60px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    border-radius: 0.2rem;
+    background-color: rgb(11, 56, 108);
+    height: 24rem;
+    width: 50%;
+    font-size: 1rem;
+}
+
+.name_input{
+    /* width: max-content; */
+    margin: 10px 10px;
+    /* background-color: yellow; */
+    margin-right: 0.5rem;
+}
+.name_input label, .addLink_input label, .category_input label{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-right: 1.2rem;
+}
+
+.name_input input, .addLink_input input, .category_input input{
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 1.2rem;
+}
+.addLink_input{
+
+    /* width: max-content; */
+}
+
+.category_input{
+
+}
+.card_submit_button{
+    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+         
+
+ 
+}
+
+
+.card_submit_button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
